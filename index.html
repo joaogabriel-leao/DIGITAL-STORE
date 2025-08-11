@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Store</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <header class="h-[192px]">
+      <div class="flex flex-row justify-center items-center gap-[40px]">
+        <div>
+          <img
+            class="mt-[38px] cursor-pointer ml-[135px]"
+            src="./Imagens_trabalho/logo.png"
+            alt="Logo_Digital_Store"
+          />
+        </div>
+        <div
+          class="bg-gray-100 flex flex-row justify-between items-center mt-[34px] rounded-[8px] h-[60px] w-[559px]"
+        >
+          <input
+            class="outline-none text-lg placeholder:text-[#666666] placeholder:text-base pl-5"
+            type="text"
+            name="text"
+            id="text"
+            placeholder="Pesquisar produto..."
+          />
+          <button
+            class="mr-[14px] cursor-pointer hover:scale-105 transition-transform"
+            type="submit"
+          >
+            <img src="./Imagens_trabalho/Search.png" alt="Ícone lupa" />
+          </button>
+        </div>
+        <div class="mt-[42px] flex gap-[28px]">
+          <a
+            class="underline text-[#474747] text-lg mt-[5px] w-[102px] hover:scale-105 transition-transform"
+            href="#"
+            >Cadastre-se</a
+          >
+          <button
+            class="h-[40px] bg-[#C92071] rounded-[8px] w-[114px] text-white font-medium cursor-pointer hover:scale-105 transition-transform"
+            type="submit"
+          >
+            Entrar
+          </button>
+        </div>
+        <div class="mt-[42px] ml-[34px]">
+          <img
+            class="cursor-pointer hover:scale-105 transition-transform mr-[12px]"
+            src="./Imagens_trabalho/Group 53581.png"
+            alt="Imagem carrinho"
+          />
+          <div
+            class="bg-[#FFFFFF] w-[315.43px] h-[450px] rounded-[4px] absolute right-0 mt-[1px] mr-[16px] shadow-2xl"
+          >
+            <h3
+              class="font-bold w-[115px] h-[24px] text-base ml-[24px] mt-[24px] text-[#474747]"
+            >
+              Meu carrinho
+            </h3>
+            <hr
+              class="w-[255.43px] h-[0px] ml-[24px] text-[#CCCCCC] mt-[16px]"
+            />
+            <div>
+              <div class="w-[255px] h-[93px] ml-[24px] mt-[16px] flex flex-row">
+                <div class="w-[71.18px] h-[58px] bg-blue-100 rounded-[2.67px]">
+                  <img
+                    class="pt-[16px] pl-[8px]"
+                    src="./Imagens_trabalho/White-Sneakers-PNG-Clipart 2.png"
+                    alt="Logo tenis"
+                  />
+                </div>
+                <div>
+                  <div class="w-[167px] h-[60px] font-bold ml-[16px]">
+                    <h2>Tênis Nike Revolution 6 next Nature Masculino</h2>
+                  </div>
+
+                  <div class="flex flex-row">
+                    <h2
+                      class="text-[#474747] ml-[18px] mt-[14px] w-[88px] h-[24px] font-medium"
+                    >
+                      R$ 190,00
+                    </h2>
+                    <img
+                      class="w-[80px] mt-[14px]"
+                      src="./Imagens_trabalho/Group 53620.png"
+                      alt="foto desconto"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="w-[255px] h-[93px] ml-[24px] mt-[16px] flex flex-row">
+                <div class="w-[71.18px] h-[58px] bg-blue-100 rounded-[2.67px]">
+                  <img
+                    class="pt-[16px] pl-[8px]"
+                    src="./Imagens_trabalho/White-Sneakers-PNG-Clipart 2.png"
+                    alt="logo tenis"
+                  />
+                </div>
+                <div>
+                  <h2 class="w-[167px] h-[60px] font-bold ml-[16px]">
+                    Tênis Nike Revolution 6 next Nature Masculino
+                  </h2>
+                  <div class="flex flex-row">
+                    <h2
+                      class="text-[#474747] ml-[18px] mt-[14px] w-[88px] h-[24px] font-medium"
+                    >
+                      R$ 190,00
+                    </h2>
+                    <img
+                      class="w-[80px] mt-[14px]"
+                      src="./Imagens_trabalho/Group 53620.png"
+                      alt="foto desconto"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr
+              class="w-[255.43px] h-[0px] ml-[24px] text-[#CCCCCC] mt-[16px]"
+            />
+            <div class="flex flex-col justify-center">
+              <div class="flex flex-row">
+                <h3
+                  class="font-bold w-[115px] h-[24px] text-base ml-[24px] mt-[20px] text-[#474747]"
+                >
+                  Valor Total :
+                </h3>
+                <h3 class="mt-[20px] ml-[48px] font-bold text-[#EE4266]">
+                  R$ 380,00
+                </h3>
+              </div>
+              <div>
+                <button
+                  class="underline ml-[24px] mt-[42px] font-medium text-[#474747] cursor-pointer hover:scale-105 transition-transform underline-offset-2"
+                  type="submit"
+                >
+                  Esvaziar
+                </button>
+                <button
+                  class="cursor-pointer hover:scale-105 transition-transform w-[124.28px] h-[40px] rounded-[8px] bg-[#C92071] text-[#F7F7FC] font-bold ml-[60px]"
+                  type="submit"
+                >
+                  Ver Carrinho
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav>
+        <ul
+          class="w-[423px] flex flex-row ml-[135px] mt-[40px] gap-[30px] text-[#666666]"
+        >
+          <li
+            class="text-[#C92071] cursor-pointer underline decoration-2 font-normal text-lg underline-offset-4"
+          >
+            Home
+          </li>
+          <li
+            class="hover:text-[#C92071] cursor-pointer hover:scale-105 transition-transform hover:underline underline-offset-4 text-lg"
+          >
+            Produtos
+          </li>
+          <li
+            class="hover:text-[#C92071] cursor-pointer hover:scale-105 transition-transform hover:underline underline-offset-4 font-normal text-lg"
+          >
+            Categorias
+          </li>
+          <li
+            class="hover:text-[#C92071] cursor-pointer hover:scale-105 transition-transform hover:underline underline-offset-4 font-normal text-lg"
+          >
+            Meus pedidos
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="bg-[#F5F5F5] h-[681px] flex flex-row items-center w-[1420px]">
+        <div class="ml-[135px] w-[510px] h-[352px]">
+          <p class="text-[#F6AA1C] font-bold">
+            Melhores ofertas personalizadas
+          </p>
+          <h2 class="font-extrabold text-[64px] leading-[66px] mt-[16px]">
+            Queima de estoque Nike🔥
+          </h2>
+          <p
+            class="font-normal text-[#474747] text-[18px] mt-[18px] leading-[34px]"
+          >
+            Consequat culpa exercitation mollit nisi excepteur do do tempor
+            laboris eiusmod irure consectetur.
+          </p>
+          <button
+            class="w-[220px] h-[48px] cursor-pointer hover:scale-105 transition-transform bg-[#C92071] rounded-[8px] text-white font-bold mt-[32px]"
+            type="submit"
+          >
+            Ver Ofertas
+          </button>
+          <div>
+            <img
+              class="mt-[120px] ml-[540px]"
+              src="./Imagens_trabalho/Group 53582.png"
+              alt="Páginas"
+            />
+          </div>
+        </div>
+        <div class="w-[60%]">
+          <img
+            class="pr-[32px] w-[100%]"
+            src="./Imagens_trabalho/White-Sneakers-PNG-Clipart 1.png"
+            alt="Imagem tenis"
+          />
+        </div>
+      </div>
+
+      <div class="h-[80px] flex items-center">
+        <h2
+          class="text-[#474747] ml-[135px] font-bold w-[283px] h-[38px] pt-[8px] text-2xl"
+        >
+          Coleções em Destaque
+        </h2>
+      </div>
+    </main>
+  </body>
+</html>

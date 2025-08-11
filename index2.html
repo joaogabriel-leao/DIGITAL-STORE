@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <header class="h-[192px]">
+      <div class="flex flex-row justify-center items-center gap-[40px]">
+        <div>
+          <img
+            class="mt-[38px] cursor-pointer ml-[135px]"
+            src="./Imagens_trabalho/logo.png"
+            alt="Logo_Digital_Store"
+          />
+        </div>
+        <div
+          class="bg-gray-100 flex flex-row justify-between items-center mt-[34px] rounded-[8px] h-[60px] w-[559px]"
+        >
+          <input
+            class="outline-none text-lg placeholder:text-[#666666] placeholder:text-base pl-5"
+            type="text"
+            name="text"
+            id="text"
+          />
+          <button
+            class="mr-[14px] cursor-pointer hover:scale-105 transition-transform"
+            type="submit"
+          >
+            <img src="./Imagens_trabalho/Search.png" alt="Ícone lupa" />
+          </button>
+        </div>
+        <div class="mt-[42px] flex gap-[28px]">
+          <a
+            class="underline text-[#474747] text-lg mt-[5px] w-[102px] hover:scale-105 transition-transform"
+            href="#"
+            >Cadastre-se</a
+          >
+          <button
+            class="h-[40px] bg-[#C92071] rounded-[8px] w-[114px] text-white font-medium cursor-pointer hover:scale-105 transition-transform"
+            type="submit"
+          >
+            Entrar
+          </button>
+        </div>
+        <div class="mt-[42px] ml-[34px]">
+          <img
+            class="cursor-pointer hover:scale-105 transition-transform mr-[12px]"
+            src="./Imagens_trabalho/Group 53581.png"
+            alt="Imagem carrinho"
+          />
+        </div>
+      </div>
+      <nav>
+        <ul
+          class="w-[423px] flex flex-row ml-[135px] mt-[40px] gap-[30px] text-[#666666]"
+        >
+          <li
+            class="hover:text-[#C92071] cursor-pointer hover:scale-105 transition-transform hover:underline underline-offset-4 text-lg"
+          >
+            Home
+          </li>
+          <li
+            class="text-[#C92071] cursor-pointer underline decoration-2 font-normal text-lg underline-offset-4"
+          >
+            Produtos
+          </li>
+          <li
+            class="hover:text-[#C92071] cursor-pointer hover:scale-105 transition-transform hover:underline underline-offset-4 font-normal text-lg"
+          >
+            Categorias
+          </li>
+          <li
+            class="hover:text-[#C92071] cursor-pointer hover:scale-105 transition-transform hover:underline underline-offset-4 font-normal text-lg"
+          >
+            Meus pedidos
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="bg-[#F9F8FE] h-[2250px] w-[1420px]">
+        <h2
+          class="w-[440px] h-[36px] font-bold text-[32px] ml-[130px] pt-[42px]"
+        >
+          Finalizar Compra
+        </h2>
+        <div>
+          <div class="mt-[64px] flex flex-row">
+            <div
+              class="w-[750px] flex flex-row bg-white shadow-sm ml-[130px] rounded-[4px]"
+            >
+              <form class="flex flex-col">
+                <h3
+                  class="w-[690px] h-[22px] font-bold text-[14px] text-[#474747] mt-[32px] pl-[28px]"
+                >
+                  Informaçãoes Pessoais
+                </h3>
+                <hr class="w-[690px] text-[#CCCCCC] mt-[16px] ml-[28px]" />
+                <label class="mt-[16px] pl-[28px]" for="name"
+                  >Nome Completo *</label
+                >
+                <input
+                  class="h-[60px] w-[690px] rounded-[8px] mt-[6px] bg-gray-100 pl-3 ml-[28px]"
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Insira seu nome"
+                />
+                <label class="mt-[16px] pl-[28px]" for="cpf">CPF *</label>
+                <input
+                  class="h-[60px] w-[690px] rounded-[8px] mt-[6px] bg-gray-100 pl-3 ml-[28px]"
+                  type="text"
+                  name="cpf"
+                  id="cpf"
+                  placeholder="Insira seu CPF"
+                />
+                <label class="mt-[16px] pl-[28px]" for="email">E-mail *</label>
+                <input
+                  class="h-[60px] w-[690px] rounded-[8px] mt-[6px] bg-gray-100 pl-3 ml-[28px]"
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Insira seu email"
+                />
+                <label class="mt-[16px] pl-[28px]" for="telefone"
+                  >Celular *</label
+                >
+                <input
+                  class="h-[60px] w-[690px] rounded-[8px] mt-[6px] bg-gray-100 pl-3 ml-[28px]"
+                  type="tel"
+                  name="telefone"
+                  id="telefone"
+                  placeholder="Insira seu celular"
+                />
+              </form>
+            </div>
+            <div
+              class="w-[460px] ml-[18px] shadow-sm rounded-[4px] h-[530px] bg-white"
+            >
+              <div>
+                <h3
+                  class="w-[109px] h-[38px] font-bold text-[24px] text-[#474747] ml-[24px] mt-[30px]"
+                >
+                  Resumo
+                </h3>
+                <hr class="w-[408px] ml-[24px] mt-[16px] text-[#CCCCCC]" />
+                <div class="flex flex-row">
+                  <div
+                    class="w-[71.18px] h-[58px] bg-blue-100 rounded-[2.61px] flex items-center justify-center ml-[24px] mt-[18px]"
+                  >
+                    <img
+                      src="./Imagens_trabalho/White-Sneakers-PNG-Clipart 2.png"
+                      alt="Imagem_Tenis"
+                    />
+                  </div>
+                  <h2
+                    class="w-[317.82px] h-[40px] font-bold mt-[22px] ml-[16px]"
+                  >
+                    Tênis Nike Revolution 6 Next Nature Masculino
+                  </h2>
+                </div>
+                <hr class="w-[408px] ml-[24px] mt-[16px] text-[#CCCCCC]" />
+                <div>
+                  <div
+                    class="w-[408px] h-[22px] flex flex-row justify-between ml-[24px] mt-[18px]"
+                  >
+                    <h2 class="font-medium text-[#8F8F8F]">Subtotal:</h2>
+                    <h2 class="font-medium text-[#1F1F1F]">R$ 219,00</h2>
+                  </div>
+                  <div
+                    class="w-[408px] h-[22px] flex flex-row justify-between ml-[24px] mt-[18px]"
+                  >
+                    <h2 class="font-medium text-[#8F8F8F]">Frete:</h2>
+                    <h2 class="font-medium text-[#1F1F1F]">R$ 0,00</h2>
+                  </div>
+                  <div
+                    class="w-[408px] h-[22px] flex flex-row justify-between ml-[24px] mt-[18px]"
+                  >
+                    <h2 class="font-medium text-[#8F8F8F]">Desconto:</h2>
+                    <h2 class="font-medium text-[#1F1F1F]">R$ 30,00</h2>
+                  </div>
+                  <div
+                    class="h-[100px] w-[408px] rounded-[4px] border-[1px] ml-[24px] mt-[18px] bg-yellow-100"
+                  >
+                    <div
+                      class="flex flex-row items-center justify-between h-[38px]"
+                    >
+                      <h2 class="font-bold text-[24px] pl-[22px] pt-[22px]">
+                        Total
+                      </h2>
+                      <h2 class="font-bold text-[24px] pt-[22px] pr-[18px]">
+                        R$ 219,00
+                      </h2>
+                    </div>
+                    <div class="flex justify-end pr-[18px] mt-[8px]">
+                      <p class="text-[#8F8F8F]">ou 10x de R$ 21,00 sem juros</p>
+                    </div>
+                  </div>
+                  <button
+                    class="w-[408px] h-[50px] bg-[#F6AA1C] rounded-[8px] ml-[24px] mt-[24px] font-bold text-white hover:bg-[#C92071] transition-transform cursor-pointer"
+                    type="submit"
+                  >
+                    Realizar pagamento
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="w-[750px] h-[640px] flex flex-col bg-white rounded-[4px] ml-[130px] shadow-sm mt-[12px]"
+          >
+            <form class="flex flex-col">
+              <h3
+                class="w-[690px] h-[22px] font-bold text-[14px] text-[#474747] mt-[32px] pl-[28px]"
+              >
+                Informações de Entrega
+              </h3>
+              <hr class="w-[690px] text-[#CCCCCC] mt-[16px] ml-[28px]" />
+              <label class="mt-[16px] pl-[28px]" for="endereco"
+                >Endereço *</label
+              >
+              <input
+                class="h-[60px] w-[690px] rounded-[8px] mt-[6px] bg-gray-100 pl-3 ml-[28px]"
+                type="text"
+                name="endereco"
+                id="endereco"
+                placeholder="Insira seu Endereço"
+              />
+              <label class="mt-[16px] pl-[28px]" for="bairro">Bairro *</label>
+              <input
+                class="h-[60px] w-[690px] rounded-[8px] mt-[6px] bg-gray-100 pl-3 ml-[28px]"
+                type="text"
+                name="bairro"
+                id="bairro"
+                placeholder="Insira seu bairro"
+              />
+              <label class="mt-[16px] pl-[28px]" for="cidade">Cidade *</label>
+              <input
+                class="h-[60px] w-[690px] rounded-[8px] mt-[6px] bg-gray-100 pl-3 ml-[28px]"
+                type="text"
+                name="cidade"
+                id="cidade"
+                placeholder="Insira sua cidade"
+              />
+              <label class="mt-[16px] pl-[28px]" for="cep">CEP *</label>
+              <input
+                class="h-[60px] w-[690px] rounded-[8px] mt-[6px] bg-gray-100 pl-3 ml-[28px]"
+                type="text"
+                name="cep"
+                id="cep"
+                placeholder="Insira seu CEP"
+              />
+              <label class="mt-[16px] pl-[28px]" for="complemento"
+                >Complemento
+              </label>
+              <input
+                class="h-[60px] w-[690px] rounded-[8px] mt-[6px] bg-gray-100 pl-3 ml-[28px]"
+                type="text"
+                name="complemento"
+                id="complemento"
+                placeholder="Insira complemento"
+              />
+            </form>
+          </div>
+          <div
+            class="w-[750px] h-[500px] flex flex-col bg-white rounded-[4px] ml-[130px] shadow-sm mt-[12px]"
+          >
+            <h3
+              class="w-[690px] h-[22px] font-bold text-[14px] text-[#474747] mt-[32px] pl-[28px]"
+            >
+              Informações de Pagamento
+            </h3>
+            <hr class="w-[690px] text-[#CCCCCC] mt-[16px] ml-[28px]" />
+            <div class="w-[317px] ml-[28px] mt-[16px]">
+              <p class="font-bold text-[12px] text-[#474747]">
+                Forma de Pagamento
+              </p>
+              <div class="pt-[18px] flex flex-row gap-[8px]">
+                <input
+                  class="w-[22px] accent-[#C92071]"
+                  type="radio"
+                  name="pagamento"
+                  id="credito"
+                />
+                <label
+                  class="font-medium text-[14px] h-[22px] text-[#474747]"
+                  for="credito"
+                  >Cartão de Crédito</label
+                >
+                <input
+                  class="ml-[12px] w-[22px] accent-[#C92071]"
+                  type="radio"
+                  name="pagamento"
+                  id="boleto"
+                />
+                <label
+                  class="font-medium text-[14px] text-[#474747]"
+                  for="boleto"
+                  >Boleto Bancário</label
+                >
+              </div>
+            </div>
+            <div class="w-[690px] h-[89px] rounded-[8px] ml-[28px] mt-[16px]">
+              <label
+                class="font-bold text-[12px] text-[#474747]"
+                for="name_cartao"
+                >Nome do Cartão *</label
+              >
+              <input
+                class="h-[60px] w-[690px] rounded-[8px] mt-[8px] bg-gray-100 pl-3"
+                type="text"
+                name="name_cartao"
+                id="name_cartao"
+                placeholder="Insira o nome do Cartão"
+              />
+            </div>
+            <div class="flex flex-row items-center">
+              <div class="flex flex-col ml-[28px] mt-[16px]">
+                <label
+                  class="font-bold text-[12px] text-[#474747]"
+                  for="numero_cartao"
+                  >Número do cartão *</label
+                >
+                <input
+                  class="w-[332px] h-[60px] rounded-[8px] pl-3 bg-gray-100 mt-[8px]"
+                  type="text"
+                  name="name_cartao"
+                  id="numero_cartao"
+                  placeholder="Insira o número do Cartão"
+                />
+              </div>
+              <div class="flex flex-col mt-[16px] ml-[24px]">
+                <label
+                  class="font-bold text-[12px] text-[#474747]"
+                  for="validade_cartao"
+                  >Data de validade do Cartão *</label
+                >
+                <input
+                  class="w-[332px] h-[60px] rounded-[8px] pl-3 bg-gray-100 mt-[8px]"
+                  type="text"
+                  name="validade_cartao"
+                  id="validade_cartao"
+                  placeholder="Insira a Validade do Cartão"
+                />
+              </div>
+            </div>
+            <label
+              class="font-bold text-[12px] text-[#474747] ml-[28px] mt-[16px]"
+              for="cvv"
+              >CVV *</label
+            >
+            <input
+              class="w-[332px] h-[60px] rounded-[8px] pl-3 bg-gray-100 mt-[8px] ml-[28px]"
+              type="text"
+              name="cvv"
+              id="cvv"
+              placeholder="CVV *"
+            />
+          </div>
+          <div
+            class="w-[750px] h-[240px] bg-white ml-[130px] mt-[12px] rounded-[4px] shadow-sm"
+          >
+            <h3
+              class="font-bold text-[14px] text-[#474747] pt-[28px] pl-[28px]"
+            >
+              Finalizar Compra
+            </h3>
+            <hr class="w-[690px] text-[#CCCCCC] mt-[16px] ml-[28px]" />
+            <div
+              class="w-[690px] h-[34px] ml-[28px] mt-[14px] flex flex-row justify-between items-center"
+            >
+              <p class="font-bold text-[18px]">Total</p>
+              <p class="font-bold text-[18px] text-[#EE4266]">R$ 219,00</p>
+            </div>
+            <div class="flex justify-end w-[690px] h-[22px] ml-[28px]">
+              <p class="font-medium text-[12px] text-[#8F8F8F] w-[]">
+                ou 10x de R$ 21,00 sem juros
+              </p>
+            </div>
+            <button
+              class="w-[690px] h-[50px] rounded-[8px] bg-[#F6AA1C] ml-[28px] mt-[12px] text-white font-bold hover:bg-[#C92071] cursor-pointer transition-transform"
+              type="submit"
+            >
+              Realizar Pagamento
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-black w-[1420px] h-[454px]">
+      <div class="pt-[80px] flex flex-row">
+        <div class="w-[300px] h-[240px] ml-[100px]">
+          <img src="./Imagens_trabalho/logo_branco.png" alt="logo_Branca" />
+          <p class="text-white font-normal text-[16px] pt-[24px]">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore.
+          </p>
+          <img class="pt-[28px]" src="./Imagens_trabalho/Icones.png" alt="" />
+        </div>
+        <div class="w-[135px] h-[280px] ml-[212px]">
+          <h3 class="text-white font-semibold text-[18px]">Informação</h3>
+          <ul class="flex flex-col gap-[12px] mt-[32px]">
+            <li
+              class="font-normal cursor-pointer hover:scale-105 transition-transform text-white text-[16px]"
+            >
+              Sobre Drip Store
+            </li>
+            <li
+              class="font-normal cursor-pointer hover:scale-105 transition-transform text-white text-[16px]"
+            >
+              Segurança
+            </li>
+            <li
+              class="font-normal cursor-pointer hover:scale-105 transition-transform text-white text-[16px]"
+            >
+              Wishlist
+            </li>
+            <li
+              class="font-normal cursor-pointer hover:scale-105 transition-transform text-white text-[16px]"
+            >
+              Blog
+            </li>
+            <li
+              class="font-normal cursor-pointer hover:scale-105 transition-transform text-white text-[16px]"
+            >
+              Trabalhe conosco
+            </li>
+            <li
+              class="font-normal cursor-pointer hover:scale-105 transition-transform text-white text-[16px]"
+            >
+              Meus pedidos
+            </li>
+          </ul>
+        </div>
+        <div class="ml-[100px]">
+          <h3 class="text-white font-semibold text-[18px]">Categorias</h3>
+          <ul class="text-white pt-[32px] flex flex-col gap-[12px]">
+            <li
+              class="font-normal cursor-pointer hover:scale-105 transition-transform text-[16px]"
+            >
+              Camisetas
+            </li>
+            <li
+              class="font-normal cursor-pointer hover:scale-105 transition-transform text-[16px]"
+            >
+              Calcas
+            </li>
+            <li
+              class="font-normal cursor-pointer hover:scale-105 transition-transform text-[16px]"
+            >
+              Bonés
+            </li>
+            <li
+              class="font-normal cursor-pointer hover:scale-105 transition-transform text-[16px]"
+            >
+              Headphones
+            </li>
+            <li
+              class="font-normal cursor-pointer hover:scale-105 transition-transform text-[16px]"
+            >
+              Tênis
+            </li>
+          </ul>
+        </div>
+        <div class="w-[233px] h-[168px] ml-[140px] flex flex-col gap-[20px]">
+          <h3 class="text-white font-semibold text-[18px]">Contato</h3>
+          <p class="text-white">
+            Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE,
+            60150-161
+          </p>
+          <p
+            class="text-white cursor-pointer hover:scale-105 transition-transform"
+          >
+            (85) 3051-3411
+          </p>
+        </div>
+      </div>
+      <hr class="w-[1240px] text-white ml-[100px] mt-[30px]"/>
+      <p class="font-normal text-white ml-[618px] mt-[20px]">
+        @2022 Digital College
+      </p>
+    </footer>
+  </body>
+</html>
